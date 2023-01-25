@@ -3,6 +3,8 @@ package model;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleFloatProperty;
 
+import java.io.IOException;
+
 public class Capteur extends Observable implements Runnable  {
     private final int id;
     private static int idActuel = 0;
@@ -115,12 +117,18 @@ public class Capteur extends Observable implements Runnable  {
     }
 
     @Override
-    public void run() {
+    public void run() throws RuntimeException {
         while(true){
-            Platform.runLater(()->setTemperature(this.tgs.generateTemperature()));
             try{
+                Platform.runLater(()-> {
+                    try {
+                        setTemperature(this.tgs.generateTemperature());
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                });
                 Thread.sleep(this.generationTime);
-            } catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 break;
             }
         }

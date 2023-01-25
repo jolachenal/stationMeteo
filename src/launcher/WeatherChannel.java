@@ -1,16 +1,19 @@
-package console;
+package launcher;
 
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
+import console.AfficheurTemperature;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+
 import model.Aleatoire;
 import model.Capteur;
-
-import javafx.application.Application;
 import model.CapteurVirtuel;
 
-public class StationMeteo extends Application{
-        public static void main(String[] args) {
+import java.io.IOException;
+
+public class WeatherChannel {
+        private Stage primaryStage;
+        private BorderPane layout;
+        public static void main(String[] args) throws IOException {
             // tests unitaires
             Capteur capteur1 = new Capteur(new Aleatoire());
             Capteur capteur2 = new Capteur(new Aleatoire());
@@ -24,12 +27,5 @@ public class StationMeteo extends Application{
             capteur1.setTemperature(capteur1.getTgs().generateTemperature());
             capteur2.setTemperature(capteur2.getTgs().generateTemperature());
             capteur3.setTemperature(capteur3.getTgs().generateTemperature());
-//            Parent root=FXMLLoader(getClass().getResource("/fxml/FenetrePrincipale"));
-            // start();
         }
-
-    @Override
-    public void start(Stage stage) throws Exception {
-
-    }
 }

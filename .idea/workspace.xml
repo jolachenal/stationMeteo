@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95221340-ce95-4db4-81f9-bbd0593279a3" name="Changes" comment="" />
+    <list default="true" id="95221340-ce95-4db4-81f9-bbd0593279a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/launcher/WeatherChannelLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/fxml/FenetrePrincipale.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/fxml/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/console/StationMeteo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/launcher/WeatherChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/CPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Capteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Capteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/TemperatureGenerationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TemperatureGenerationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/FenetreImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ImageWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/FenetrePrincipale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/FenetreSpinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SpinnerWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Visualisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Visualisateur.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,26 +32,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IqvQtYaJM45vyyETlQsOG7vUtx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/home/UCA/jolachenal/2AButInfo/algorithme/java/TPJeuDe",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/UCA/jolachenal/2AButInfo/algorithme/java/TPJeuDe&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ressources/fxml" />
@@ -46,8 +63,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="console.StationMeteo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="console.StationMeteo" />
+    <configuration name="launcher.WeatherChannel" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="launcher.WeatherChannel" />
       <module name="stationMeteo" />
       <option name="VM_PARAMETERS" value="--module-path &quot;/usr/share/openjfx/javafx-sdk-18.0.2/lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.graphics" />
       <method v="2">
@@ -65,6 +82,17 @@
       <updated>1670921918220</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
